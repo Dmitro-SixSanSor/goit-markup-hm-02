@@ -303,7 +303,12 @@ fieldset {
   text-align: center;
   color: var(--navy-blue);
 }
-
+.li-img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 260px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
